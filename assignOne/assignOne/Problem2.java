@@ -3,23 +3,18 @@ package assignOne;
 public class Problem2 {
 
 	public static void main(String[] args) {
-		/*int integer = 121;
-		int extractedDigit;
+		int integer = -0;
 		
-		while (integer > 0)
-			extractedDigit = integer % 10;
-		*/
-		
-		char ch = 3 + '0';
-		System.out.print(ch);
+		System.out.print(integer);
 		
 	}
 	
 	public static String intToString(int value) {
 		
+		String str = "" + value;
+		return str;
 		
 		
-		return null;
+		}
 	}
 
-}

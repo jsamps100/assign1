@@ -3,7 +3,7 @@ package assignOne;
 public class Problem1 {
 
 	public static void main(String[] args) {
-		String str = "-121";
+		String str = "-654544776";
 		
 		System.out.print(stringToInt(str));
 		
@@ -15,7 +15,7 @@ public class Problem1 {
 		if (str.charAt(0) == '-'){
 			
 			int totalIntVal = 0;
-			int currentInt = 0;
+			int currentInt;
 			 
 			for(int i=1;i<str.length();i++){
 				currentInt = str.charAt(i) - '0';
@@ -37,3 +37,5 @@ public class Problem1 {
 		}
 	}
 }
+
+
